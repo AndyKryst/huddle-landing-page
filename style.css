@@ -1,5 +1,5 @@
 body {
-  background: url("images/bg-desktop.svg") no-repeat center center fixed;
+  background: url("./images/bg-desktop.svg") no-repeat center center fixed;
   background-color: hsl(257, 40%, 49%);
   color: #fff;
   margin: 40px 40px 0;
@@ -99,7 +99,7 @@ footer > p {
 
 @media only screen and (max-width: 810px) {
   body {
-    background: url("images/bg-mobile.svg") no-repeat;
+    background: url("./images/bg-mobile.svg") no-repeat;
     background-color: hsl(257, 40%, 49%);
     margin: 30px 40px;
   }
