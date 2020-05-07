@@ -1,0 +1,168 @@
+body {
+  background: url("images/bg-desktop.svg") no-repeat center center fixed;
+  background-color: hsl(257, 40%, 49%);
+  color: #fff;
+  margin: 40px 40px 0;
+  padding-left: 10px;
+}
+
+.nav > img {
+  height: 50px;
+  margin-left: 30px;
+}
+
+.nav {
+  margin: 85px 0 65px;
+}
+
+.container {
+  display: grid;
+  grid-gap: 36px;
+  grid-template-columns: 3fr 2fr;
+}
+
+.box > img {
+  width: 100%;
+  height: auto;
+}
+
+.image {
+  padding: 30px 0 30px 30px;
+}
+
+.text {
+  padding: 30px 20px;
+}
+
+.heading {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 2.3em;
+  line-height: 1.6;
+}
+
+.par {
+  font-family: "Open Sans";
+  font-size: 1em;
+  padding-right: 25px;
+}
+
+button {
+  color: hsl(257, 40%, 49%);
+  font-size: 16px;
+  padding: 13px 60px;
+  border-radius: 20px;
+  border: none;
+  margin-top: 10px;
+  box-shadow: 0px 2px 14px -2px rgba(0,0,0,0.75);
+}
+
+button:hover {
+  background-color: #fff;
+  color: #060606;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.social {
+  display: flex;
+  justify-content: flex-end;
+  color: #fff;
+  font-size: 20px;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+}
+
+.fab {
+  border: 1px solid #fff;
+  padding: 10px;
+  border-radius: 60%;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}
+
+footer > p {
+  margin: 0;
+}
+
+@media only screen and (max-width: 810px) {
+  body {
+    background: url("images/bg-mobile.svg") no-repeat;
+    background-color: hsl(257, 40%, 49%);
+    margin: 30px 40px;
+  }
+
+  .nav > img {
+    height: 30px;
+    margin: 0;
+  }
+
+  .nav {
+    margin: 20px 0 55px 0;
+  }
+
+  .image {
+    padding: 0;
+  }
+
+  .heading {
+    font-size: 1.5em;
+  }
+
+  .box {
+    text-align: center;
+  }
+
+  .text {
+    padding: 8px;
+  }
+
+  .par {
+    font-size: 0.9em;
+    padding: 0;
+    line-height: 1.6;
+  }
+
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  button {
+    font-size: 15px;
+    padding: 10px 70px;
+    box-shadow: none;
+    margin-bottom: 50px;
+  }
+
+  .social {
+    justify-content: center;
+    font-size: 15px;
+  }
+
+  .fab {
+    width: 12px;
+    height: 12px;
+    text-align: center;
+  }
+
+  .icons {
+    justify-content: space-around;
+  }
+
+  footer {
+    margin-top: 10px;
+    line-height: 1.5;
+  }
+}
